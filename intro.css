@@ -145,6 +145,30 @@ hr {
     margin-top: 20px;
 }
 
+.un {
+    transition: 2s;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.python {
+    transition: 2s;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.html {
+    transition: 2s;
+    transform: translateX(+100%);
+    opacity: 0;
+}
+
+.c {
+    transition: 2s;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
 .debut-container img {
     width: 250px;
     height: 250px;
@@ -153,6 +177,9 @@ hr {
 
 .deux {
     margin-top: 100px;
+    transition: 2s;
+    transform: translateX(+100%);
+    opacity: 0;
 }
 
 .deux img {
@@ -165,6 +192,9 @@ hr {
     width: 700px;
     text-align: start;
     display: flex;
+    transition: 2s;
+    transform: translateX(-100%);
+    opacity: 0;
 }
 
 
@@ -175,7 +205,7 @@ hr {
 }
 
 #connaissance p  {
-    width: 700px;
+    width: 900px;
     font-size: 24px;
     margin: 0 auto;
     text-align: center;
@@ -186,10 +216,50 @@ hr {
     display: flex;
     margin: 30px auto;
 }
+
+.know.c {
+
+    margin-bottom: 90px;
+}
 .know h2 {
     margin-left: 100px;
     float: left;
 }
 .know p {
     width: 700px;
+}
+
+#connaissance hr {
+    width: 900px;
+}
+
+
+.un.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.deux.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.trois.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.python.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.html.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.c.active {
+    transform: translateX(0%);
+    opacity: 1;
 }
