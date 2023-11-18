@@ -142,8 +142,9 @@ hr {
     width: 100%;
     justify-content: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
+
 
 .un {
     transition: 2s;
@@ -260,6 +261,89 @@ hr {
 }
 
 .c.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+
+/*Naimmmmmm*/
+
+.naim-un {
+    transition: 2s;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.naim-deux {
+    transition: 2s;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.naim-trois {
+    transition: 2s;
+    transform: translateX(-100%);
+    opacity: 0;
+    width: 500px;
+    margin: 30px auto;
+}
+
+.naim-trois p {
+    margin: 5px;
+}
+
+.naim-html {
+    transition: 2s;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.naim-python {
+    transition: 2s;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.naim-c {
+    transition: 2s;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+.naim-deux {
+    margin-left: -100px;
+}
+
+#naim {
+    margin-top: 200px;
+}
+
+
+.naim-un.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.naim-deux.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.naim-trois.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.naim-python.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.naim-html.active {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.naim-c.active {
     transform: translateX(0%);
     opacity: 1;
 }
