@@ -354,3 +354,10 @@ hr {
     height: 10px;
     background: white;
 }
+
+.project {
+    width: 800px;
+    margin: 30px auto;
+    font-size: 20px;
+    text-align: center;
+}
